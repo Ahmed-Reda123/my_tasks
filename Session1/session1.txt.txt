@@ -1,0 +1,46 @@
+Step1:
+mkdir "Ahmed Reda"
+cd "Ahmed_Reda"
+#####################################
+Step2:
+mkdir Documents 
+cd Documents 
+touch file1.txt file2.txt file3.txt
+ls
+#####################################
+Step3:
+cd ../
+touch .hidden_file.txt
+ls -a
+#####################################
+Step4:
+cd Documents
+nano file1.txtcat file1.txt
+cat file1.txt
+#####################################
+Step5:
+cd ../
+#####################################
+Step6:
+mkdir "-"
+cd ~/Desktop/"Ahmed Reda"/Documents/"-"
+pwd
+#####################################
+Step7:
+cp -r Documents /home/kali/Desktop/"Ahmed Reda"/My_Documents
+ls
+##############################################################
+Step8:
+cat .hidden_file.txt 
+##############################################################
+Step9:
+cd Documents 
+mv file2.txt /home/kali/Desktop/"Ahmed Reda"
+mv file3.txt /home/kali/Desktop/"Ahmed Reda"
+cd ../
+ls
+##############################################################
+Step10:
+cd ../
+rm -r "Ahmed Reda" 
+ls
