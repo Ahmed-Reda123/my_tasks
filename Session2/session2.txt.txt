@@ -1,0 +1,38 @@
+Step 1:
+unzip -K Updated-Task-02
+cd Updated-Task-02
+cat README.txt
+#################################################
+Step 2:
+find . -name ".*"
+tar -xf .level-1.tar
+cd .level-1
+ls
+cat README.txt
+################################################
+Step 3:
+file level-2 
+tar -xf level-2  
+cd level-2
+ls
+cat README.txt
+################################################
+Step 4:
+find . -name level-3
+cd ./gBT5u0vLT5
+ls
+file level-3
+bunzip2 -f level-3 
+file level-3.out
+tar -xf level-3.out
+ls
+cd level-3
+ls
+cat README.txt
+#################################################
+Step 5:
+ls -li
+cat X6lkChFKsj
+find -size  73c
+cat ./m7lRDpRTUJ/xVMvVOKNW5
+
